@@ -1,15 +1,10 @@
-list = [11, 12, 6,8,3,9,10,1,2,4,7,5]
-g1 = []
-g2 = []
+list = [6,8,3,9,10,1,2,4,7,5]
 
-for x in range(0,int(len(list)/2)):
-    g1.append(list[x])
-
-for x in range (int(len(list)/2),len(list)):
-    g2.append(list[x])
-
-g1sorted = []
-g2sorted = []
+def divide(A,g1,g2):
+    for x in range(0,int(len(A)/2)):
+        g1.append(A[x])
+    for x in range (int(len(A)/2),len(A)):
+        g2.append(A[x])
 
 def Sort(group,sorted):
     sorted.insert(0, group[0])
@@ -29,11 +24,20 @@ def Sort(group,sorted):
         else:
             indexNo -= 1 
 
-    return group , sorted
+def MergeSort(LIST):
+    g1=[]
+    g2=[]
 
-result = []
+    divide(LIST,g1,g2)
+    
+    g1sorted = []
+    g2sorted = []
 
-def MergeSort(g1sorted, g2sorted, result):
+    Sort(g1,g1sorted)
+    Sort(g2,g2sorted)
+    
+    result=[]
+
     while len(g1sorted) and len(g2sorted) != 0:
         if g1sorted[0] < g2sorted[0]:
             result.append(g1sorted[0])
@@ -44,14 +48,11 @@ def MergeSort(g1sorted, g2sorted, result):
     
     result = result + g1sorted
     result = result + g2sorted
-    g1sorted.clear()
-    g2sorted.clear()
 
-    return g1sorted, g2sorted, result
+    return result
 
-Sort(g1,g1sorted)
-Sort(g2,g2sorted)
-print(MergeSort(g1sorted,g2sorted, result))
+print(MergeSort(list))
+
 
 
 
