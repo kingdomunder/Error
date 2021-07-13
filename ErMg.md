@@ -1,4 +1,20 @@
-Indentation - 들여쓰기
+<h3> 깃 </h3>
 
-Response [200] - 요청 성공
-Resoponse [4xx] - 실패
+<p>
+
+* 새로운 저장소 만들었을 때, __브랜치 생성하는 법__ <br> -> 새로 커밋하면 자동 생성 
+
+  
+
+</p>
+
+<h3> 콘솔 창 에러 </h3>
+
+<p>
+
+* Indentation - 들여쓰기
+* Response [200] - 요청 성공
+* Resoponse [4xx] - 실패
+
+</p>
+
