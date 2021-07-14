@@ -1,5 +1,3 @@
-<p>
-
 <h4>21/07/14</h4>
 
 + 파일 2개 commit
@@ -8,9 +6,8 @@
 + 이전 브랜치에서 파일 복원해서 petch, pull, push 시도 - 모두 에러 (SourceTree)
  
 <u>
+
 + __remote repository에서 파일 삭제하고 진행하니 해결됨__ (git 홈페이지)
+
 </u>
 
-
-
-</p>
