@@ -51,3 +51,6 @@ hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+* pull 하면 clean your repository 에러 출력
+
+=> <u>__소스트리에서 강제푸쉬__</u> - 소스트리 이외에서 강제푸쉬 하는 방법 알아보기 
