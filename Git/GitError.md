@@ -37,3 +37,17 @@
 => __Q로 esacape__
 
 </u>
+
+<h1>21/07/20</h1>
+
+* cmd에서 git push 입력 후 에러 메시지 출력
+  
+* C:\GIT\Error>git push
+To https://github.com/kingdomunder/Error
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/kingdomunder/Error'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
