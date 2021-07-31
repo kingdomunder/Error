@@ -6,5 +6,7 @@
 * Response [200] - 요청 성공
 * Resoponse [4xx] - 실패
 
+* RecursionError: maximum recursion depth exceeded in comparison - 재귀함수 에러 
+
 </p>
 
